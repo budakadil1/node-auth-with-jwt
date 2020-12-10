@@ -1,0 +1,42 @@
+body{
+    background-color:#2c2c2c;
+}
+
+#text-404{
+    color:darkred;
+}
+
+
+.nav-item{
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.navbar{
+    background-color: #2c2c2c;
+}
+
+.fixnavbarmargin{
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        height:165px;
+    }
+    .navbar-brand{
+        font-size: 2em;
+    }
+    .fixnavbarmargin{
+        margin-bottom: 180
+    }
+    .nav-item{
+        float:left;
+        margin-left:0;
+        font-size: 1.1em;
+        margin-bottom: 4px;
+    }
+    .project-icon{
+        margin-right: 4px;
+    }
+  }
